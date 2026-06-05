@@ -82,7 +82,7 @@ export default function Order() {
                   value={formData.items}
                   onChange={handleChange}
                   className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-brand-orange focus:border-transparent transition-shadow"
-                  placeholder="e.g. 1 Classic Assorted Fried Rice, 1 Green Vitality Smoothie"
+                  placeholder="e.g. 1 Classic Assorted Fried Rice, 1 Malt Drink"
                 ></textarea>
               </div>
 

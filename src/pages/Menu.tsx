@@ -6,56 +6,62 @@ export default function Menu() {
   const foodItems = [
     {
       id: 1,
-      name: "Classic Assorted Fried Rice",
-      description: "Our signature fried rice with chicken, beef, sausage, and fresh vegetables.",
-      price: "GHS 45",
-      image: "https://images.unsplash.com/photo-1645696301019-35adcc18fc21?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+      name: "Grilled Chicken Green Sauce Rice",
+      description: "Generous pieces of tender grilled chicken topped with our signature fresh green sauce, served over special rice.",
+      price: "GHS 55",
+      image: "https://i.pinimg.com/originals/ef/84/ea/ef84ea9f1e4032197c05167e6497c6a9.jpg"
     },
     {
       id: 2,
-      name: "Spicy Chicken Fried Rice",
-      description: "Flavorful fried rice packed with tender chicken chunks and a kick of spice.",
-      price: "GHS 40",
-      image: "https://images.unsplash.com/photo-1533745848184-3db07256e163?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+      name: "Classic Assorted Fried Rice",
+      description: "Our signature fried rice beautifully packed in a family tray with sausage, chicken, and fresh vegetables.",
+      price: "GHS 45",
+      image: "https://i.pinimg.com/originals/f5/81/68/f581687ef873096f37c1cfddb5c0f5ba.jpg"
     },
     {
       id: 3,
-      name: "Beef & Mushroom Fried Rice",
-      description: "Savory beef strips and mushrooms stir-fried with our special rice blend.",
-      price: "GHS 50",
-      image: "https://images.unsplash.com/photo-1512058564366-18510be2db19?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+      name: "Vegetable Egg Fried Rice",
+      description: "A hearty bowl of light and fluffy fried rice tossed with fresh carrots, sweet peas, and egg.",
+      price: "GHS 35",
+      image: "https://i.pinimg.com/originals/b4/62/0e/b4620e0d8925c5e675f845680964277b.jpg"
     },
     {
       id: 4,
-      name: "Vegetarian Delight",
-      description: "A healthy mix of seasonal vegetables, tofu, and light soy sauce.",
-      price: "GHS 35",
+      name: "Beef Fried Rice",
+      description: "Savory beef strips stir-fried to perfection with our special rice blend, peas, and carrots.",
+      price: "GHS 50",
       image: "https://images.unsplash.com/photo-1603133872878-684f208fb84b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      id: 5,
+      name: "Spicy Chicken Fried Rice",
+      description: "Flavorful fried rice packed with tender chicken chunks, diced carrots, and a kick of spice.",
+      price: "GHS 40",
+      image: "https://i.pinimg.com/originals/f1/57/16/f157168a2488f4e47ff65add90091c74.jpg"
     }
   ];
 
   const drinkItems = [
     {
-      id: 5,
-      name: "Green Vitality Smoothie",
-      description: "Probiotic drink with yogurt, pineapple, spinach, coconut water, honey, lemon, and chia seeds.",
-      price: "GHS 20",
-      image: "https://images.unsplash.com/photo-1610970881699-44a5587ce578?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-      isBottleCrop: false
-    },
-    {
       id: 6,
-      name: "Pineapple Ginger Blast",
-      description: "Freshly squeezed pineapple juice with a strong ginger kick.",
+      name: "Malt Drink",
+      description: "A rich, refreshing non-alcoholic malt beverage.",
       price: "GHS 15",
-      image: "https://images.unsplash.com/photo-1550828520-4cb496926fc9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+      image: "https://i.pinimg.com/originals/6e/9a/76/6e9a762e8eb9c4b8b6979f5f9055bae7.jpg"
     },
     {
       id: 7,
-      name: "Watermelon Refresher",
-      description: "Pure, hydrating watermelon juice with a hint of mint.",
-      price: "GHS 15",
-      image: "https://images.unsplash.com/photo-1589733955941-5eeaf752f6dd?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+      name: "Coca Cola",
+      description: "The classic, refreshing, cold Coca Cola.",
+      price: "GHS 12",
+      image: "https://i.pinimg.com/736x/ed/b5/62/edb562b35c22bde49d0c4392d134c37e.jpg"
+    },
+    {
+      id: 8,
+      name: "Fanta",
+      description: "Crisp, cold Fanta orange drink.",
+      price: "GHS 12",
+      image: "https://i.pinimg.com/originals/38/76/c2/3876c2c8d59020d55ff757a83a1c5ac9.jpg"
     }
   ];
 
@@ -67,7 +73,7 @@ export default function Menu() {
         <div className="text-center mb-12">
           <h1 className="text-4xl font-serif font-bold text-gray-900 mb-4">Our Menu</h1>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            Browse our selection of freshly prepared meals and natural juices. Everything is made to order.
+            Browse our selection of freshly prepared meals and refreshing drinks. Everything is made to order.
           </p>
         </div>
 
@@ -88,11 +94,11 @@ export default function Menu() {
               onClick={() => setActiveTab('drinks')}
               className={`px-8 py-3 rounded-full font-medium transition-colors ${
                 activeTab === 'drinks' 
-                  ? 'bg-brand-green text-white shadow-md' 
-                  : 'text-gray-600 hover:text-brand-green'
+                  ? 'bg-brand-orange text-white shadow-md' 
+                  : 'text-gray-600 hover:text-brand-orange'
               }`}
             >
-              Natural Juices
+              Drinks
             </button>
           </div>
         </div>
@@ -105,7 +111,7 @@ export default function Menu() {
                 <img 
                   src={item.image} 
                   alt={item.name} 
-                  className={`w-full h-full ${activeTab === 'drinks' && item.id === 5 ? 'object-contain py-2' : 'object-cover'}`}
+                  className={`w-full h-full object-cover`}
                   referrerPolicy="no-referrer"
                 />
               </div>
@@ -113,7 +119,7 @@ export default function Menu() {
                 <div>
                   <div className="flex justify-between items-start mb-2">
                     <h3 className="text-xl font-bold text-gray-900">{item.name}</h3>
-                    <span className={`font-bold ${activeTab === 'food' ? 'text-brand-orange' : 'text-brand-green'}`}>
+                    <span className="font-bold text-brand-orange">
                       {item.price}
                     </span>
                   </div>
@@ -123,9 +129,7 @@ export default function Menu() {
                   href={`https://wa.me/233550827113?text=I%20want%20to%20order%20${encodeURIComponent(item.name)}`}
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className={`block w-full text-center text-white py-2 rounded-lg font-medium transition-colors ${
-                    activeTab === 'food' ? 'bg-brand-orange hover:bg-orange-600' : 'bg-brand-green hover:bg-green-600'
-                  }`}
+                  className="block w-full text-center text-white py-2 rounded-lg font-medium transition-colors bg-brand-orange hover:bg-orange-600"
                 >
                   Add to WhatsApp Order
                 </a>

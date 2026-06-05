@@ -23,7 +23,7 @@ export default function Navbar() {
         <div className="flex justify-between h-16">
           <div className="flex items-center">
             <Link to="/" className="flex-shrink-0 flex items-center">
-              <span className="font-serif text-2xl font-bold text-brand-green">FreshPlate<span className="text-brand-orange">GH</span></span>
+              <span className="font-serif text-2xl font-bold text-brand-green">Faro<span className="text-brand-orange">tina</span></span>
             </Link>
           </div>
           

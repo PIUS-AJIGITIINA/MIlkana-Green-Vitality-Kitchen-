@@ -8,7 +8,7 @@ export default function Home() {
       <section className="relative bg-gray-900 text-white">
         <div className="absolute inset-0 overflow-hidden">
           <img 
-            src="https://images.unsplash.com/photo-1645696301019-35adcc18fc21?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80" 
+            src="https://i.pinimg.com/originals/f5/81/68/f581687ef873096f37c1cfddb5c0f5ba.jpg" 
             alt="Delicious Fried Rice" 
             className="w-full h-full object-cover opacity-40"
             referrerPolicy="no-referrer"
@@ -19,7 +19,7 @@ export default function Home() {
             Fresh. Hot. <span className="text-brand-orange">Affordable.</span>
           </h1>
           <p className="text-lg md:text-xl text-gray-200 mb-8 max-w-2xl">
-            Experience the best fried rice in Kumasi, paired perfectly with our Green Vitality natural probiotic smoothies.
+            Experience the best fried rice in Kumasi, prepared hot and fresh for you.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <a 
@@ -44,7 +44,7 @@ export default function Home() {
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-serif font-bold text-gray-900">Why Choose FreshPlate GH?</h2>
+            <h2 className="text-3xl font-serif font-bold text-gray-900">Why Choose Farotina?</h2>
             <div className="w-24 h-1 bg-brand-orange mx-auto mt-4"></div>
           </div>
           
@@ -62,7 +62,7 @@ export default function Home() {
                 <Leaf className="h-8 w-8" />
               </div>
               <h3 className="text-xl font-bold mb-2">Fresh Ingredients</h3>
-              <p className="text-gray-600">From farm-fresh vegetables to 100% natural juices, we use only the best ingredients for your meals.</p>
+              <p className="text-gray-600">From farm-fresh vegetables to top-quality proteins, we use only the best ingredients for your meals.</p>
             </div>
             
             <div className="flex flex-col items-center text-center p-6 bg-orange-50 rounded-2xl">
@@ -91,19 +91,19 @@ export default function Home() {
             {/* Item 1 */}
             <div className="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-shadow">
               <img 
-                src="https://images.unsplash.com/photo-1645696301019-35adcc18fc21?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
-                alt="Classic Assorted Fried Rice" 
+                src="https://i.pinimg.com/originals/ef/84/ea/ef84ea9f1e4032197c05167e6497c6a9.jpg" 
+                alt="Grilled Chicken Green Sauce Rice" 
                 className="w-full h-48 object-cover"
                 referrerPolicy="no-referrer"
               />
               <div className="p-6">
                 <div className="flex justify-between items-start mb-2">
-                  <h3 className="text-xl font-bold text-gray-900">Classic Assorted Fried Rice</h3>
-                  <span className="font-bold text-brand-orange">GHS 45</span>
+                  <h3 className="text-xl font-bold text-gray-900">Grilled Chicken Green Sauce Rice</h3>
+                  <span className="font-bold text-brand-orange">GHS 55</span>
                 </div>
-                <p className="text-gray-600 text-sm mb-4">Our signature fried rice with chicken, beef, sausage, and fresh vegetables.</p>
+                <p className="text-gray-600 text-sm mb-4">Generous pieces of tender grilled chicken topped with our signature fresh green sauce, served over special rice.</p>
                 <a 
-                  href="https://wa.me/233550827113?text=I%20want%20to%20order%20Classic%20Assorted%20Fried%20Rice" 
+                  href="https://wa.me/233550827113?text=I%20want%20to%20order%20Grilled%20Chicken%20Green%20Sauce%20Rice" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="block w-full text-center bg-gray-900 text-white py-2 rounded-lg font-medium hover:bg-brand-orange transition-colors"
@@ -116,7 +116,7 @@ export default function Home() {
             {/* Item 2 */}
             <div className="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-shadow">
               <img 
-                src="https://images.unsplash.com/photo-1533745848184-3db07256e163?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+                src="https://i.pinimg.com/originals/f1/57/16/f157168a2488f4e47ff65add90091c74.jpg" 
                 alt="Spicy Chicken Fried Rice" 
                 className="w-full h-48 object-cover"
                 referrerPolicy="no-referrer"
@@ -140,30 +140,28 @@ export default function Home() {
             
             {/* Item 3 */}
             <div className="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-shadow">
-              <div className="w-full h-48 overflow-hidden bg-gray-100">
-                <img 
-                  src="https://images.unsplash.com/photo-1610970881699-44a5587ce578?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
-                  alt="Green Vitality Smoothie" 
-                  className="w-full h-full object-contain py-2"
-                  referrerPolicy="no-referrer"
-                />
-              </div>
-              <div className="p-6">
-                <div className="flex justify-between items-start mb-2">
-                  <h3 className="text-xl font-bold text-gray-900">Green Vitality Smoothie</h3>
-                  <span className="font-bold text-brand-green">GHS 20</span>
-                </div>
-                <p className="text-gray-600 text-sm mb-4">Probiotic drink with yogurt, pineapple, spinach, coconut water, honey, lemon, and chia seeds.</p>
-                <a 
-                  href="https://wa.me/233550827113?text=I%20want%20to%20order%20Green%20Vitality%20Smoothie" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="block w-full text-center bg-gray-900 text-white py-2 rounded-lg font-medium hover:bg-brand-green transition-colors"
-                >
-                  Order via WhatsApp
-                </a>
-              </div>
-            </div>
+               <img 
+                 src="https://i.pinimg.com/originals/b4/62/0e/b4620e0d8925c5e675f845680964277b.jpg" 
+                 alt="Vegetable Egg Fried Rice" 
+                 className="w-full h-48 object-cover"
+                 referrerPolicy="no-referrer"
+               />
+               <div className="p-6">
+                 <div className="flex justify-between items-start mb-2">
+                   <h3 className="text-xl font-bold text-gray-900">Vegetable Egg Fried Rice</h3>
+                   <span className="font-bold text-brand-orange">GHS 35</span>
+                 </div>
+                 <p className="text-gray-600 text-sm mb-4">A hearty bowl of light and fluffy fried rice tossed with fresh carrots, sweet peas, and egg.</p>
+                 <a 
+                   href="https://wa.me/233550827113?text=I%20want%20to%20order%20Vegetable%20Egg%20Fried%20Rice" 
+                   target="_blank" 
+                   rel="noopener noreferrer"
+                   className="block w-full text-center bg-gray-900 text-white py-2 rounded-lg font-medium hover:bg-brand-orange transition-colors"
+                 >
+                   Order via WhatsApp
+                 </a>
+               </div>
+             </div>
           </div>
           
           <div className="mt-8 text-center sm:hidden">
@@ -191,7 +189,7 @@ export default function Home() {
                 <Star className="h-5 w-5 fill-current" />
                 <Star className="h-5 w-5 fill-current" />
               </div>
-              <p className="mb-4 italic">"The assorted fried rice is simply the best in Kumasi! Portions are huge and it's always served hot. The Green Vitality juice is the perfect combo."</p>
+              <p className="mb-4 italic">"The assorted fried rice is simply the best in Kumasi! Portions are huge and it's always served hot."</p>
               <p className="font-bold">— Kwame A.</p>
             </div>
             
@@ -207,7 +205,7 @@ export default function Home() {
               <p className="font-bold">— Sarah T.</p>
             </div>
             
-            <div className="bg-green-800 p-6 rounded-2xl">
+             <div className="bg-green-800 p-6 rounded-2xl">
               <div className="flex text-yellow-400 mb-4">
                 <Star className="h-5 w-5 fill-current" />
                 <Star className="h-5 w-5 fill-current" />
@@ -215,7 +213,7 @@ export default function Home() {
                 <Star className="h-5 w-5 fill-current" />
                 <Star className="h-5 w-5 fill-current" />
               </div>
-              <p className="mb-4 italic">"That Green Vitality smoothie is magic. It's so refreshing and you can taste how fresh the ingredients are. Perfect for a hot afternoon."</p>
+              <p className="mb-4 italic">"The vegetable egg fried rice is incredibly flavorful! They really know how to make a perfect dish. Perfect for a cozy afternoon."</p>
               <p className="font-bold">— Emmanuel O.</p>
             </div>
           </div>

@@ -1,18 +1,12 @@
 export default function Gallery() {
   const images = [
     {
-      src: "https://images.unsplash.com/photo-1645696301019-35adcc18fc21?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      src: "https://i.pinimg.com/originals/f5/81/68/f581687ef873096f37c1cfddb5c0f5ba.jpg",
       alt: "Classic Assorted Fried Rice",
       category: "food"
     },
     {
-      src: "https://images.unsplash.com/photo-1610970881699-44a5587ce578?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-      alt: "Green Vitality Smoothie",
-      category: "drinks",
-      contain: true
-    },
-    {
-      src: "https://images.unsplash.com/photo-1533745848184-3db07256e163?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      src: "https://i.pinimg.com/originals/f1/57/16/f157168a2488f4e47ff65add90091c74.jpg",
       alt: "Spicy Chicken Fried Rice",
       category: "food"
     },
@@ -22,12 +16,12 @@ export default function Gallery() {
       category: "food"
     },
     {
-      src: "https://images.unsplash.com/photo-1556910103-1c02745a872f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-      alt: "Our Kitchen",
-      category: "kitchen"
+      src: "https://i.pinimg.com/originals/ef/84/ea/ef84ea9f1e4032197c05167e6497c6a9.jpg",
+      alt: "Grilled Chicken Green Sauce Rice",
+      category: "food"
     },
     {
-      src: "https://images.unsplash.com/photo-1603133872878-684f208fb84b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      src: "https://i.pinimg.com/originals/b4/62/0e/b4620e0d8925c5e675f845680964277b.jpg",
       alt: "Vegetarian Fried Rice",
       category: "food"
     }
@@ -41,7 +35,7 @@ export default function Gallery() {
           <h1 className="text-4xl font-serif font-bold text-gray-900 mb-4">Gallery</h1>
           <div className="w-24 h-1 bg-brand-green mx-auto mb-6"></div>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            A glimpse into our kitchen, our delicious meals, and the refreshing natural juices we serve.
+            A glimpse into our kitchen and our delicious, freshly prepared meals.
           </p>
         </div>
 

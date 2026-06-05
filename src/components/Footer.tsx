@@ -8,10 +8,10 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
             <h3 className="font-serif text-2xl font-bold mb-4">
-              <span className="text-brand-green">FreshPlate</span><span className="text-brand-orange">GH</span>
+              <span className="text-brand-green">Faro</span><span className="text-brand-orange">tina</span>
             </h3>
             <p className="text-gray-400 mb-4">
-              Fresh, hot, and affordable fried rice paired with natural, revitalizing Green Vitality smoothies.
+              Fresh, hot, and affordable fried rice served hot and ready for you.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-gray-400 hover:text-brand-orange transition-colors">
@@ -56,7 +56,7 @@ export default function Footer() {
         </div>
         
         <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-500 text-sm">
-          <p>&copy; {new Date().getFullYear()} FreshPlate GH. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Farotina. All rights reserved.</p>
         </div>
       </div>
     </footer>
