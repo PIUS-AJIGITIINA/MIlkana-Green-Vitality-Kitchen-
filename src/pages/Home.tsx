@@ -142,18 +142,18 @@ export default function Home() {
             <div className="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-shadow">
                <img 
                  src="https://i.pinimg.com/originals/b4/62/0e/b4620e0d8925c5e675f845680964277b.jpg" 
-                 alt="Vegetable Egg Fried Rice" 
+                 alt="Vegetable and Chicken Fried Rice" 
                  className="w-full h-48 object-cover"
                  referrerPolicy="no-referrer"
                />
                <div className="p-6">
                  <div className="flex justify-between items-start mb-2">
-                   <h3 className="text-xl font-bold text-gray-900">Vegetable Egg Fried Rice</h3>
+                   <h3 className="text-xl font-bold text-gray-900">Vegetable and Chicken Fried Rice</h3>
                    <span className="font-bold text-brand-orange">GHS 35</span>
                  </div>
                  <p className="text-gray-600 text-sm mb-4">A hearty bowl of light and fluffy fried rice tossed with fresh carrots, sweet peas, and egg.</p>
                  <a 
-                   href="https://wa.me/233550827113?text=I%20want%20to%20order%20Vegetable%20Egg%20Fried%20Rice" 
+                   href="https://wa.me/233550827113?text=I%20want%20to%20order%20Vegetable%20and%20Chicken%20Fried%20Rice" 
                    target="_blank" 
                    rel="noopener noreferrer"
                    className="block w-full text-center bg-gray-900 text-white py-2 rounded-lg font-medium hover:bg-brand-orange transition-colors"
@@ -213,7 +213,7 @@ export default function Home() {
                 <Star className="h-5 w-5 fill-current" />
                 <Star className="h-5 w-5 fill-current" />
               </div>
-              <p className="mb-4 italic">"The vegetable egg fried rice is incredibly flavorful! They really know how to make a perfect dish. Perfect for a cozy afternoon."</p>
+              <p className="mb-4 italic">"The vegetable and chicken fried rice is incredibly flavorful! They really know how to make a perfect dish. Perfect for a cozy afternoon."</p>
               <p className="font-bold">— Emmanuel O.</p>
             </div>
           </div>

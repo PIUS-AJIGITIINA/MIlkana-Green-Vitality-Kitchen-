@@ -20,15 +20,15 @@ export default function Menu() {
     },
     {
       id: 3,
-      name: "Vegetable Egg Fried Rice",
+      name: "Vegetable and Chicken Fried Rice",
       description: "A hearty bowl of light and fluffy fried rice tossed with fresh carrots, sweet peas, and egg.",
       price: "GHS 35",
       image: "https://i.pinimg.com/originals/b4/62/0e/b4620e0d8925c5e675f845680964277b.jpg"
     },
     {
       id: 4,
-      name: "Beef Fried Rice",
-      description: "Savory beef strips stir-fried to perfection with our special rice blend, peas, and carrots.",
+      name: "Vegetable Fried Rice",
+      description: "Light and healthy fried rice loaded with fresh mixed vegetables.",
       price: "GHS 50",
       image: "https://images.unsplash.com/photo-1603133872878-684f208fb84b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
     },

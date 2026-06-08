@@ -12,7 +12,7 @@ export default function Gallery() {
     },
     {
       src: "https://images.unsplash.com/photo-1512058564366-18510be2db19?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-      alt: "Beef Fried Rice",
+      alt: "Vegetable Fried Rice",
       category: "food"
     },
     {
@@ -22,7 +22,7 @@ export default function Gallery() {
     },
     {
       src: "https://i.pinimg.com/originals/b4/62/0e/b4620e0d8925c5e675f845680964277b.jpg",
-      alt: "Vegetarian Fried Rice",
+      alt: "Vegetable and Chicken Fried Rice",
       category: "food"
     }
   ];
